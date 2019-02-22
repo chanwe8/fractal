@@ -66,12 +66,12 @@ func defaultNodeConfig() *node.Config {
 		IPCPath:           params.ClientIdentifier + ".ipc",
 
 		HTTPHost:         "localhost",
-		HTTPPort:         8545,
+		HTTPPort:         9222,
 		HTTPModules:      []string{"ft", "miner", "dpos", "account", "txpool", "keystore"},
 		HTTPVirtualHosts: []string{"localhost"},
 
 		WSHost:    "localhost",
-		WSPort:    8546,
+		WSPort:    19222,
 		WSModules: []string{"ft"},
 		Logger:    log.New(),
 

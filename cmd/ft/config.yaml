@@ -8,12 +8,12 @@ log-backtraceat: ""
 #node-keystore: ""
 #node-lightkdf: false
 node-httphost:  "localhost"
-node-httpport:  8545
+node-httpport:  9222
 node-httpmodules: ["ft"]
 #node-httpcors:  ["", ""]
 node-httpvirtualhosts: ["localhost"]
 node-wshost: "localhost"
-node-wsport: 8546
+node-wsport: 19222
 node-wsmodules: ["ft"]
 
 #node-wsorigins: ["", ""]
